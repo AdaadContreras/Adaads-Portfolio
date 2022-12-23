@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "cour", sans-serif;
     box-sizing: border-box;
 }
 
@@ -39,7 +40,6 @@
     width: 100%;
     max-width: 100%;
     padding-right: 0rem;
-    font-family: "cour", sans-serif;
 }
 
 @media screen and (max-width: 768px) {
@@ -59,13 +59,11 @@
 
 .nav-links {
    color: white;
-   margin-left: 2%;
+   margin-left: -90%;
    list-style-type: none;
    font-size: 20px;
    height: 100%;
    padding: 13px;
-   font-family: "cour", sans-serif;
-   
 }
 
 main {
@@ -90,7 +88,6 @@ main {
     width: 100%;
     height: auto;
    color: white;
-   font-family: "cour", sans-serif;
 }
 
 .box {
