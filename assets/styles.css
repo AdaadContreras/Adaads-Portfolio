@@ -58,8 +58,10 @@
 }
 
 .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
    color: white;
-   margin-left: -90%;
    list-style-type: none;
    font-size: 20px;
    height: 100%;
@@ -131,6 +133,36 @@ ul {
     margin: 0;
     text-align: center;
 }
+
+/*About-Me*/
+
+.am-header {
+    padding: 10px;
+    display: block;
+    background-color: #24252a;
+    color: white;
+}
+
+.am-title {
+    margin: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.am-image {
+    width: 100%;
+    height: auto;
+}
+
+.am-paragraph {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    line-height: 2em;
+
+}
+
 
 @media screen and (max-width: 768px) {
     main, .nav {
