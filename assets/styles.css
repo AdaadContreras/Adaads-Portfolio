@@ -42,13 +42,6 @@
     padding-right: 0rem;
 }
 
-@media screen and (max-width: 768px) {
-    main,
-    .nav {
-        flex-direction: column;
-    }
-}
-
 .nav {
     display: flex;
     width: 100%;
@@ -137,30 +130,49 @@ ul {
 /*About-Me*/
 
 .am-header {
+    width: 100%;
     padding: 10px;
     display: block;
     background-color: #24252a;
     color: white;
 }
 
-.am-title {
-    margin: 20px;
-    width: 100%;
-    height: auto;
+.am-title-image {
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+}
+
+.am-h2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .am-image {
+    margin-bottom: 20px;
+    margin-top: 150px;
+    width: auto;
+    height: 300px;
+    border-style: solid;
+    border-radius: 45px;
+}
+
+.am-card {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: auto;
 }
 
-.am-paragraph {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    line-height: 2em;
-
+.am-box {
+    border-style: solid;
+    border-radius: 40px;
+    margin: 100px;
+    padding: 25px;
+    line-height: 2.5em;
 }
 
 
