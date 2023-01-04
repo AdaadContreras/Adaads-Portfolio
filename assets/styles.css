@@ -147,8 +147,11 @@ a {
 
 h2,
 ul {
-    margin: 0;
-    text-align: center;
+    width: 15%;
+    height: auto;
+    margin-left: 30px;
+    text-align: left;
+    line-height: 4vh;
 }
 
 /*About-Me*/
@@ -159,6 +162,11 @@ ul {
     display: block;
     background-color: #24252a;
     color: white;
+}
+
+.am-nav-links {
+    margin: 5px;
+    padding: 5px;
 }
 
 .am-title-image {
@@ -199,6 +207,36 @@ ul {
     line-height: 2.5em;
 }
 
+.list-items {
+    width: 100%;
+    height: auto;
+    margin: 40px;
+    text-align: left;
+}
+
+.am-footer {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: #24252a;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: left;
+    margin-left: 40px;
+    padding: 10px;
+    color: white;
+}
+
+.am-contact {
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-left: 15px;
+    padding: 5px
+}
 
 @media screen and (max-width: 768px) {
     main, .nav {
