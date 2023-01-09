@@ -14,5 +14,8 @@ Using HTML and CSS I created my own personal portfolio to showcase my work for f
 ## Screenshot/Deployed Website
 ![deployed-website-img](./assets/images/screenshot.png)
 
-Deplyed Website: 
+Deployed Portolio Website: 
 https://adaadcontreras.github.io/Adaads-Portfolio/
+
+Deployed About Me Website:
+https://adaadcontreras.github.io/About-Me/
