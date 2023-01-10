@@ -5,10 +5,14 @@
     box-sizing: border-box;
 }
 
+/*Custom-Font*/
+
 @font-face {
     font-family: "cour";
     src: url(./fonts/cour.ttf);
 }
+
+/*Header*/
 
 .inner-header {
     width: 100%;
@@ -42,6 +46,8 @@
     padding-right: 0rem;
 }
 
+/*Nav-Bar*/
+
 .nav {
     display: flex;
     width: 100%;
@@ -61,6 +67,8 @@
    padding: 13px;
 }
 
+/*Underline-Hover-Effects*/
+
 a::after {
     content: "";
     height: 2px;
@@ -77,6 +85,8 @@ a:hover::after {
     background-color:#d3d3d3;
     display: block;
 }
+
+/*Main-Body*/
 
 main {
     display: flex;
@@ -118,6 +128,8 @@ main {
     transition: 1.1s all;
 }
 
+/*Box-Hover-Effect*/
+
 .box:hover {
     box-shadow: 6px 6px 40px 10px #d3d3d3;
     transform: translate(20px);
@@ -135,6 +147,8 @@ h3 {
     margin: 0;
     padding: 1px;
 }
+
+/*Footer*/
 
 .footer{
     color: white;
@@ -162,97 +176,6 @@ h2 {
     margin-left: 30px;
     text-align: left;
     line-height: 4vh;
-}
-
-
-
-/*About-Me*/
-
-.am-header {
-    width: 100%;
-    padding: 10px;
-    display: block;
-    background-color: #24252a;
-    color: white;
-}
-
-.am-nav-links {
-    margin: 5px;
-    margin-left: 20px;
-    padding: 5px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-}
-
-.am-title-image {
-    margin-top: -100px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-}
-
-.am-h2 {
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.am-image {
-    margin-bottom: 20px;
-    margin-top: 150px;
-    width: auto;
-    height: 300px;
-    border-style: solid;
-    border-radius: 45px;
-}
-
-.am-card {
-    margin-top: -20px;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-}
-
-.am-box {
-    border-style: solid;
-    border-radius: 40px;
-    margin: 100px;
-    padding: 25px;
-    line-height: 2.5em;
-}
-
-.list-items {
-    width: 100%;
-    height: auto;
-    margin: 10px;
-    text-align: left;
-}
-
-.am-footer {
-    width: 100%;
-    height: auto;
-    display: block;
-    background-color: #24252a;
-}
-
-.footer-title {
-    display: flex;
-    justify-content: left;
-    margin-left: 55px;
-    padding: 10px;
-    color: white;
-}
-
-.am-contact {
-    width: 15%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-    margin-left: 35px;
-    padding: 5px
 }
 
 @media screen and (max-width: 768px) {
